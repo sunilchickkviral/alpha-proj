@@ -9,8 +9,7 @@ const customers = [
 {title: 'Josh', id: 2},
 {title: 'Tyler', id: 3},
 {title: 'Alice', id: 4},
-{title: 'Candice', id: 5},
-  {title:'examp',id:6}
+{title: 'Candice', id: 5}
 ]
 
 //Read Request Handlers

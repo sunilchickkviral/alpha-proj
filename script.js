@@ -21,7 +21,7 @@ res.send('Welcome to REST API!');
 app.get('/api/customers', (req,res)=> {
 res.send(customers);
 });
-// Display the Information Of Specific Customer when you mention the id.
+// Display the Information Of Specific Customer when you mention the id. and value
 app.get('/api/customers/:id', (req, res) => {
 const customer = customers.find(c => c.id === parseInt(req.params.id));
 //If there is no valid customer ID, then display an error with the following message
